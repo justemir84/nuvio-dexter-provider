@@ -1,15 +1,11 @@
-{
-  "id": "dexterpw-repo",
-  "name": "Dexter.pw Repository",
-  "version": "1.0.0",
-  "description": "Dexter.pw kaynak sağlayıcısı deposu",
-  "providers": [
-    {
-      "id": "dexterpw",
-      "name": "Dexter.pw",
-      "filename": "providers/dexterpw.js",
-      "supportedTypes": ["movie", "tv"],
-      "enabled": true
-    }
-  ]
-}
+[
+  {
+    "id": "dexterpw",
+    "name": "Dexter.pw",
+    "version": "1.0.0",
+    "description": "Dexter.pw kaynak sağlayıcısı",
+    "filename": "providers/dexterpw.js",
+    "supportedTypes": ["movie", "tv"],
+    "enabled": true
+  }
+]
